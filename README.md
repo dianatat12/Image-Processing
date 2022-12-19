@@ -12,15 +12,15 @@ A simplified version of grayscale image which I will be using has rows and colum
 
 The colormap is an array with 3 columns, representing the quantities of red, green, and blue which make up the color of a pixel. 
 
-### Enhancement
+## Enhancement
 
 Enhancing means increasing the visibility of the elements from the image.
 
-### Point operation
+## Point operation
 
 A point operation is a method that maps the input pixels into the output pixels with an one-to-one relationship. Thus, for computing the new, enhanced value of the pixel, we apply a mathematical function to the old, initial pixel. The function considers only the initial value of the pixel.
 
-### Piecewise linear contrast stretching
+## Piecewise linear contrast stretching
 
 The contrast is the difference in brightness (gray level intensity) between the pixels in a region of interest. The bigger the contrast, the better the visibility of the elements from the images. Piecewise linear contrast stretching is defined as:
 
