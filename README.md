@@ -12,7 +12,7 @@ I will share here some personal projects I have done in Image Processing, follow
 >The colormap is an array with 3 columns, representing the quantities of red, green, and blue which make up the color of a pixel. 
 
 >I have done an exanple of creating a 128x128 image and its corresponding colormap with colors that range from black to pure red
-![My Image](my-image.jpg)
+![images](colormap_black_to_red.jpg)
 
 
 ## Enhancement
