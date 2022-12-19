@@ -11,8 +11,14 @@ I will share here some personal projects I have done in Image Processing, follow
 ## Colormap
 >The colormap is an array with 3 columns, representing the quantities of red, green, and blue which make up the color of a pixel. 
 
->I have done an exanple of creating a 128x128 image and its corresponding colormap with colors that range from black to pure red
-![black-red](https://github.com/dianatat12/Image-Processing/blob/main/images/colormap_black_to_red.jpg)
+>I have done an examples of creating images and their corresponding colormaps 
+>
+- 128x128 image with colormap which pixels range from black to pure red
+- ![black-red](https://github.com/dianatat12/Image-Processing/blob/main/images/colormap_black_to_red.jpg)
+>
+- 256x256 image with colormap which pixels range from black to pure red and then to magenta
+>
+- 256x256 image with colormap which pixels range from black to pure red and then to yellow
 
 
 ## Enhancement
