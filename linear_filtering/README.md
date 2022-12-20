@@ -8,6 +8,10 @@ Let f (l,c) be the initial input image, g (l, c) be the output, processed image 
 ![neighbourhood_operations](https://github.com/dianatat12/Image-Processing/blob/main/images/neighbourhood_operations.jpg)
 Neighbourhood operation on a 3x3 neighbourhood.
 
+> How to avoid border effects of a neighborhood?
+> - Ignore the lines/columns which are corresponding to problematic locations
+> - Extending the image by sufficient lines/ columns
+
 ## Linear filtering(Convolution)
 
 Linearity means that the superposition principle holds.
@@ -23,16 +27,17 @@ In our case, f and g are images having the same size, α and β and real scalars
 > - Weights associated to points within the neighborhood, w_mn
 
 Linear filtering is the filtering method in which linear combinations of the nearby input pixels to determine the value of the output pixel. In order to achieve it, we can use convolution. Gaussian filtering or mean/average filters are two examples. Mathematically, linear filtering can be expressed as:
+
 ![linear_filtering](https://github.com/dianatat12/Image-Processing/blob/main/images/convolution_formula.jpg)
 
 - where w_mn are weights. These weights are constant scalars associated with each position in the filtering window.
 
 >For each image pixel, located at (l,c):
-- The neighborhood V is placed with the origin in the current pixel
-- Extract the values of pixels within the neighborhood
-- According to T, extracted pixel values are combined
-- The new values are stored in the output location at location (l,c)
-- Go to next location (next pixel)
+> - The neighborhood V is placed with the origin in the current pixel
+> - Extract the values of pixels within the neighborhood
+> - According to T, extracted pixel values are combined
+> - The new values are stored in the output location at location (l,c)
+> - Go to next location (next pixel)
 
 ![convolution](https://github.com/dianatat12/Image-Processing/blob/main/images/convolution.jpg)
 The mathematical operation is always applied for each neighbourhood and a new value is obtained. This new value depends on all the pixels in the neighbourhood.
@@ -41,9 +46,11 @@ The sliding window process
 
 ## Linear smoothing filters
 
->Smoothing filters are used to increase the uniformity of the pixels in a region. It decreases small variations, which can be caused by noise. Smoothing filters are used to decrease the noise in the image. 
+Snoothing means increasing the uniformity within regions.
 
->The most common type of noise is Gaussian noise. Usually for this type of noise the mean is considered to be 0.
+Smoothing filters are used to increase the uniformity of the pixels in a region. It decreases small variations, which can be caused by noise. Smoothing filters are used to decrease the noise in the image. 
+
+The most common type of noise is Gaussian noise. Usually for this type of noise the mean is considered to be 0.
 
 >I converted the 'lena' image into grayscale and add Gaussian noise on it. The function used to create Gasussian noise is:
 
