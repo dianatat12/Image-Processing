@@ -1,12 +1,12 @@
 # Neighbourhood operations
 
-The neighborhood is a window (opening) within an opaque material placed in front of the image; from the image it can be seen only the part corresponding to the current position of the window.
-Neighborhood operations are image operations when each pixel in an output image is determined by the corresponding input pixel and pixels in one of its neighborhoods.
+>The neighborhood is a window (opening) within an opaque material placed in front of the image; from the image it can be seen only the part corresponding to the current position of the window.
+>Neighborhood operations are image operations when each pixel in an output image is determined by the corresponding input pixel and pixels in one of its neighborhoods.
 
-Let f (l,c) be the initial input image, g (l, c) be the output, processed image and T a transform (an operation) on f, defined for a neighbourhood of a pixel at position (l, c). The new value of any pixel from the output image is obtained by combining the values of the pixels from the initial image, placed around the processed pixel (in the neighbourhood of the processed pixel). The origin of the filterring window is moved from pixel to pixel within the image until all the pixels are processed. The transform T is a function that combines the values extracted from the input image. T is applied at each location (l, c) in order to obtain the result g (l, c), in that particular location. 
+>Let f (l,c) be the initial input image, g (l, c) be the output, processed image and T a transform (an operation) on f, defined for a neighbourhood of a pixel at position (l, c). The new value of any pixel from the output image is obtained by combining the values of the pixels from the initial image, placed around the processed pixel (in the neighbourhood of the processed pixel). The origin of the filterring window is moved from pixel to pixel within the image until all the pixels are processed. The transform T is a function that combines the values extracted from the input image. T is applied at each location (l, c) in order to obtain the result g (l, c), in that particular location. 
 
-![neighbourhood_operations](https://github.com/dianatat12/Image-Processing/blob/main/images/neighbourhood_operations.jpg)
-Neighbourhood operation on a 3x3 neighbourhood.
+> ![neighbourhood_operations](https://github.com/dianatat12/Image-Processing/blob/main/images/neighbourhood_operations.jpg)
+>Neighbourhood operation on a 3x3 neighbourhood.
 
 > How to avoid border effects of a neighborhood?
 > - Ignore the lines/columns which are corresponding to problematic locations
