@@ -7,7 +7,7 @@
 >I converted the 'lena' image into grayscale and add Gaussian noise on it. The function used to create Gasussian noise is:
 
 ```python
-N = np.random.normal(0,standard_deviation,(rows,columns))
+# N = np.random.normal(0,standard_deviation,(rows,columns))
 N = np.random.normal(0, 100, (h,w))
 ```
 
