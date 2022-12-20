@@ -1,4 +1,4 @@
-##Linear smoothing filters
+## Linear smoothing filters
 
 >Smoothing filters are used to increase the uniformity of the pixels in a region. It decreases small variations, which can be caused by noise. Smoothing filters are used to decrease the noise in the image. 
 >The most common type of noise is Gaussian noise. Usually for this type of noise the mean is considered to be 0.
