@@ -87,3 +87,4 @@ N = np.random.normal(0, 100, (h,w))
     If we add the detailed images to the original image we get the sharpened image.
     
 ![sharpenong_formula](https://github.com/dianatat12/Image-Processing/blob/main/images/sharpening_formula.jpg)
+![original_smoothed_details](https://github.com/dianatat12/Image-Processing/blob/main/images/original_details_sharpened.jpg)
