@@ -83,4 +83,7 @@ N = np.random.normal(0, 100, (h,w))
     One of the L-filter types is sharpening (derivation). Sharpening enhaces the transitions.
     The first step for sharpening is to use a secont derivative kernel (Laplacian). This is a high pass filter and keeps the details 
     in the image (edges).
+    If we subtract from the original image, the smoothed image we get the detailed image. 
+    If we add the detailed images to the original image we get the sharpened image.
+    
 ![sharpenong_formula](https://github.com/dianatat12/Image-Processing/blob/main/images/sharpening_formula.jpg)
