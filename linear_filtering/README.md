@@ -70,3 +70,17 @@ I converted the 'lena' image into grayscale and add Gaussian noise on it. The fu
 N = np.random.normal(0, 100, (h,w))
 ```
 
+##MSE and MAE 
+
+    If we use the arithmetic mean filter to reduce the white, additive, Gaussian noise, we need to compute a measure 
+    to see if the noise was indeed reduced (if the  resulting image is better than the initial one).
+    The most common used objective measures are MSE((Mean Squared Error) and MAE(Mean Absolute Error).
+![mase_mae](https://github.com/dianatat12/Image-Processing/blob/main/images/mse_mae.jpg)
+
+##Sharpening
+
+    An L-filter is a weighted linear combination of the order statistics of the values extracted from the image.
+    One of the L-filter types is sharpening (derivation). Sharpening enhaces the transitions.
+    The first step for sharpening is to use a secont derivative kernel (Laplacian). This is a high pass filter and keeps the details 
+    in the image (edges).
+![sharpenong_formula](https://github.com/dianatat12/Image-Processing/blob/main/images/sharpening_formula.jpg)
