@@ -1,21 +1,7 @@
 # Neighbourhood operations
-
-The neighborhood is a window (opening) within an opaque material placed in front of the image; from the image it can be seen only the part corresponding to the current position of the window.
-Neighborhood operations are image operations when each pixel in an output image is determined by the corresponding input pixel and pixels in one of its neighborhoods.
-
-  Let f (l,c) be the initial input image, g (l, c) be the output, processed image and T a transform (an operation) on f, defined for a neighbourhood of a pixel at    position (l, c). The new value of any pixel from the output image is obtained by combining the values of the pixels from the initial image, placed around the processed pixel (in the neighbourhood of the processed pixel). The origin of the filterring window is moved from pixel to pixel within the image until all the pixels are processed. The transform T is a function that combines the values extracted from the input image. T is applied at each location (l, c) in order to obtain the result g (l, c), in that particular location. 
-  Our plan is to create an RPG-style farming simulator game and to document all the necessary 
-    steps from planning to the launch.
-
-    We design it as a game in which the player is put in a scene where it will interact with the 
-    environment as in, cutting grass, trees, and mining rocks to expand farmable areas. The player 
-    will have the goal to plant and harvest many types of crops, depending on the season, but with a 
-    twist.
-
-    Whenever a crop overgrows beyond the harvestable state it will try attacking the player. Once 
-    harvested or beaten the player will have the option to sell the crop and gather coins for upgrades 
-    in the farm. An example of such an upgrade is the possibility to have a scarecrow as your ally 
-    that help the character fighting the overgrown crops.
+    Let f (l,c) be the initial input image, g (l, c) be the output, processed image and T a transform (an operation) on f, defined for a neighbourhood of a pixel at        position (l, c). The new value of any pixel from the output image is obtained by combining the values of the pixels from the initial image, placed around the        processed pixel (in the neighbourhood of the processed pixel). The origin of the filterring window is moved from pixel to pixel within the image until all the pixels are processed. The transform T is a function that combines the values extracted from the input image. T is applied at each location (l, c) in order to obtain the result g (l, c), in that particular location. 
+     The neighborhood is a window (opening) within an opaque material placed in front of the image; from the image it can be seen only the part corresponding to the    current position of the window.
+      Neighborhood operations are image operations when each pixel in an output image is determined by the corresponding input pixel and pixels in one of its neighborhoods.
 
 > ![neighbourhood_operations](https://github.com/dianatat12/Image-Processing/blob/main/images/neighbourhood_operations.jpg)
 >Neighbourhood operation on a 3x3 neighbourhood.
