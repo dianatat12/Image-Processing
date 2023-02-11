@@ -12,9 +12,7 @@
     Starting from a basic kernel, other kernels are obtained by a circular shift of the kernel marnings around its center.
     
 > ![sobel](https://github.com/dianatat12/Image-Processing/blob/main/images/sobel.jpg)
->Neighbourhood operation on a 3x3 neighbourhood.
 > ![sobel_example](https://github.com/dianatat12/Image-Processing/blob/main/images/sobel_example.jpg)
->Neighbourhood operation on a 3x3 neighbourhood.
  
  ## Laplacian operator 
     Laplacian operator is a differential operator used in image processing and computer vision to detect edges in an image.
