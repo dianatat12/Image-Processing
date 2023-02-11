@@ -49,7 +49,8 @@
  ## Segmentation quality
     Segmentation quality refers to how well an image segmentation algorithm has divided an image into meaningful 
     and homogeneous regions, or segments, that accurately represent the objects or regions of interest in the image.
-    The quality of an image segmentation is typically evaluated using metrics such as accuracy, completeness, consistency, and robustness.
+    The quality of an image segmentation is typically evaluated using metrics such as accuracy, completeness, consistency,
+    and robustness.
 
     Accuracy measures how well the segments match the ground truth or manual segmentation, while completeness measures
     how much of the object or region of interest is captured by the segment. Consistency refers to how similar the 
